@@ -1,30 +1,60 @@
+<!DOCTYPE html>
+<script src ="script.js"></script>
+<html>
 <style>
     .title-header {
-       font-family:'Monaco';
+       font-family:'IBM Plex Mono';
        font-weight: bolder;
         text-align: center;
     }
     .p1 {
         text-align: center;
-        font-family: 'Monaco';
+        font-family: 'IBM Plex Mono';
     }
     hr.rounded {
         border-width: 2px;
     }
 
     .set-button {
+        background-color: lightblue;
+        border-style: none;
         height: 50px;
         width: 120px;
         margin-right: 15px;
+        transition: opacity 0.25s;
+    }
+    .set-button:hover {
+        opacity: 0.8;
+    }
+    .set-button:active{
+        opacity: 0.5;
     }
     .confirm-button {
+        background-color: lightblue;
+        border-style: none;
         height: 50px;
         width: 140px;
         margin-right: 15px;
+        transition: opacity 0.25s;
+    }
+    .confirm-button:hover {
+        opacity: 0.8;
+    }
+    .confirm-button:active {
+        opacity: 0.5;
     }
     .resched-button {
+        background-color: lightblue;
+        border-style: none;
         height: 50px;
         width: 160px;
+        transition: opacity 0.25s;
+    }
+    .resched-button:hover {
+        opacity: 0.8;
+    }
+    .resched-button:active{
+        opacity: 0.5;
     }
     .button-divider {
         text-align: center;
@@ -42,7 +72,7 @@
     &nbsp;
 
     <div class="button-divider">
-        <button class="set-button">
+        <button class="set-button" id="myButton">
             Set Up A Study
         </button>
         
@@ -55,3 +85,4 @@
         </button>
    </div> 
 </body>
+</html>
