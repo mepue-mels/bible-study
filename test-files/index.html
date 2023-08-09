@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <style>
-    button {
-        background-color: red;
-        color: white;
+    .button-div {
+        text-align: center;
+    }
+    .title-header {
+        font-family: 'Monaco';
+        font-weight: bold;
+        text-align: center;
+    }
+    .setup-button {
+        height: 80px;
+        width: 250px;
+        border-radius: 15px;
+        background-color: lightblue;
+        font-size: 25px;
+        font-family: 'Monaco';
         border: none;
-        width: 120px;
-        height: 60px;
+        transition: opacity 0.25s;
+    }
+    .setup-button:hover {
+        opacity: 0.8;
+    }
+    .setup-button:active {
+        opacity: 0.5;
     }
 </style>
+
 <html>
+    <head>
+        <h1 class="title-header">Set up a time with God!</h1>
+    </head>
+    &nbsp;
+
     <body>
-        <button onclick="
-            constValue += 1;
-        "> Show me the money </button>
-
-        <button onclick="
-            console.log(constValue);
-        ">
-            Show value</button>
+        <div class="button-div">
+            <button class="setup-button" onclick="createStudy();">
+                Set up a study
+            </button>
+        </div>
     </body>
-    
-    <script>
-        let constValue = 0;
-    </script>
 
+    <script>
+        let counter = 0;
+
+        const studyArray = {
+
+        };
+
+        function createStudy() {
+            
+        }
+    </script>
 </html>
