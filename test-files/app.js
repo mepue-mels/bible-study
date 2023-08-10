@@ -15,3 +15,4 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 const hiddenElementsTwo = document.querySelectorAll('.hidden-two');
 hiddenElementsTwo.forEach((el) => observer.observe(el));
+

@@ -16,17 +16,30 @@ section {
     margin: 0px;
     font-family: Arial;
     font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
 .navbar button {
     background: none;
     border: none;
+    opacity: 1;
     color: black;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.navbar button:hover {
+    opacity: 0.6;
+}
+
+.navbar button:active {
+    opacity: 0.3;
 }
 
 .navbar-left img {
@@ -48,32 +61,20 @@ section {
     padding: 20px;
 }
 
-
-
-.about-button {
-    opacity: 1;
-    transition: opacity 0.25s;
+.navbar-right {
+    display: flex;
+    align-items: center;
 }
 
-.about-button:hover {
-    opacity: 0.6;
+.navbar-right button {
+    margin-right: 20px;
+    color: grey;
 }
 
-.about-button:active {
-    opacity: 0.3;
-}
-
-.mmicc-button {
-    opacity: 1;
-    transition: opacity 0.25s;
-}
-
-.mmicc-button:hover {
-    opacity: 0.6;
-}
-
-.mmicc-button:active {
-    opacity: 0.3;
+.button-div {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
 }
 
 .image-div {
@@ -99,6 +100,11 @@ section {
     font-size: 48px;
 }
 
+.scripture {
+    margin-top: 0;
+    color: grey;
+}
+
 
 .container {
     background-color: rgb(248, 248, 248);
@@ -106,7 +112,7 @@ section {
 
 .hidden {
     color: black;
-    font-family: Arial;
+    font-family: Georgia;
     line-height: 25px;
     font-size: 48px;
     opacity: 0;
@@ -119,10 +125,11 @@ section {
 .buttons button {
     background:none;
     border:none;
+    font-family: Georgia;
     font-size: 40px;
     color: rgb(37, 133, 223);
     opacity: 1;
-    transition: opacity 0.25s;
+    transition: opacity 0.1s;
 }
 
 .buttons button:hover {
@@ -130,12 +137,12 @@ section {
 }
 
 .buttons button:active {
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 .hidden-two {
     color: black;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 48px;
     opacity: 0;
     filter: blur(5px);
