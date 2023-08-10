@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.navbar {
+    padding: 20px;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: black;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar-left img {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * {
+    padding: 20px;
+}
+
+
+
+.about-button {
+    opacity: 1;
+    transition: opacity 0.25s;
+}
+
+.about-button:hover {
+    opacity: 0.8;
+}
+
+.about-button:active {
+    opacity: 0.5;
+}
+
+.mmicc-button {
+    opacity: 1;
+    transition: opacity 0.25s;
+}
+
+.mmicc-button:hover {
+    opacity: 0.8;
+}
+
+.mmicc-button:active {
+    opacity: 0.5;
+}
+
+.image-div {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.image-div img {
+    width: 100%;
+}
+
+.intra-image {
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
+}
+
+.intra-image:hover{
+    opacity: 0.6;
+}
+
+.text-div {
+    width: 100%;
+    position: absolute;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}

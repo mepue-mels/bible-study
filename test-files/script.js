@@ -1,1 +1,1 @@
-console.log("Wow ulam!");
+document.getElementById("aboutButton").addEventListener("click", myFunction);
