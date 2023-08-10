@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.image-div {
+    padding: 20px;
+}
+
+.header-div {
+    text-align: center;
+}
+
+.cat-img {
+    width: 150px;
+}
+
+.body-head-text div {
+    text-align: center;
+    line-height: 60px;
+}
+
+.main-text {
+    font-size: 40px;
+}
+
+.sub-text {
+    font-size: 25px;
+}

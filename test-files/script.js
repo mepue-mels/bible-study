@@ -1,1 +1,0 @@
-document.getElementById("aboutButton").addEventListener("click", myFunction);
